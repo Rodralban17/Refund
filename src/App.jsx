@@ -5,6 +5,7 @@ import {
 } from "react-router-dom";
 import Layout from "./Pages/Layout";
 import HomePage from "./Pages/HomePage";
+import AuthPage from "./Pages/AuthPage";
 // import Fonctionalities from "./Pages/Fonctionalities";
 // import AuthPage from "./Pages/AuthPage";
 // import Dashboard from "./Pages/DashboardPage";
@@ -22,6 +23,8 @@ const App = () =>{
           element: <HomePage/>
         },
         {
+          path: '/auth',
+          element: <AuthPage/>
         }
       ],
     },
