@@ -1,6 +1,7 @@
 import React from "react";
 import Hero from "../Components/HeroSection";
 import HowItWorks from "../Components/HowItWorks";
+import DemographicGrid from "../Components/DemographicGrid";
 const HomePage =()=>{
     return(
         <div>
@@ -9,6 +10,7 @@ const HomePage =()=>{
          <Hero/>
         </section>
         <HowItWorks/>
+        <DemographicGrid/>
       </main>
         </div>
     )
