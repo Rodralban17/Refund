@@ -1,7 +1,7 @@
 import  React, {useContext, useEffect, useState } from 'react'
 import { Navigate, Outlet } from 'react-router-dom'
 import Navbar from '../Components/Navbar'
-// import Footer from '../Components/Footer'
+import Footer from '../Components/Footer'
 // import DashboardSidebar from '../Components/dashboard/DashboardSidebar'
 // import {DashboardTopbar} from '../Components/dashboard/DashboardTopbar'
 // import ProtectedRoute from '../lib/ProtectedRoute.jsx'
@@ -16,7 +16,7 @@ const Layout = () =>{
         <Outlet/>
        </div>
        <div className='top-5'>
-        {/* <Footer/> */}
+        <Footer/>
        </div>
      </div>
        
