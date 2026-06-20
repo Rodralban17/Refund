@@ -1,5 +1,6 @@
 import React from "react";
 import Hero from "../Components/HeroSection";
+import HowItWorks from "../Components/HowItWorks";
 const HomePage =()=>{
     return(
         <div>
@@ -7,7 +8,7 @@ const HomePage =()=>{
         <section className=" bg-[url('/bg.jpg')] bg-cover bg-center flex items-center justify-center">
          <Hero/>
         </section>
-        
+        <HowItWorks/>
       </main>
         </div>
     )
