@@ -2,6 +2,7 @@ import React from "react";
 import Hero from "../Components/HeroSection";
 import HowItWorks from "../Components/HowItWorks";
 import DemographicGrid from "../Components/DemographicGrid";
+import FaqAndReviews from "../Components/FAQ";
 const HomePage =()=>{
     return(
         <div>
@@ -11,6 +12,7 @@ const HomePage =()=>{
         </section>
         <HowItWorks/>
         <DemographicGrid/>
+        <FaqAndReviews/>
       </main>
         </div>
     )
