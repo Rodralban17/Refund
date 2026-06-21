@@ -6,6 +6,7 @@ import {
 import Layout from "./Pages/Layout";
 import HomePage from "./Pages/HomePage";
 import AuthPage from "./Pages/AuthPage";
+import ContactPage from "./Pages/ContactUsPage";
 // import Fonctionalities from "./Pages/Fonctionalities";
 // import AuthPage from "./Pages/AuthPage";
 // import Dashboard from "./Pages/DashboardPage";
@@ -25,6 +26,10 @@ const App = () =>{
         {
           path: '/auth',
           element: <AuthPage/>
+        },
+        {
+          path: '/contact', 
+          element: <ContactPage/>
         }
       ],
     },

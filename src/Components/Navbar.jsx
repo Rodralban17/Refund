@@ -8,8 +8,8 @@ const Navbar = () => {
   const toggleMenu = () => setIsOpen(!isOpen);
 
   const navLinks = [
-    { name: 'Home', href: '#' },
-    { name: 'Contact Us', href: '#' },
+    { name: 'Home', href: '/' },
+    { name: 'Contact Us', href: '/contact' },
   ];
 
   // Framer Motion Variants for Mobile Menu
@@ -40,7 +40,7 @@ const Navbar = () => {
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center">
             <a href="#" className="text-xl font-bold bg-gradient-to-r from-indigo-600 to-violet-600 bg-clip-text text-transparent">
-              BrandLogo
+              RefundGuard
             </a>
           </div>
 
@@ -62,7 +62,7 @@ const Navbar = () => {
           {/* Desktop Auth Buttons */}
           <div className="hidden md:flex items-center space-x-4">
             <a 
-              href="#" 
+              href="/auth" 
               className="text-sm font-medium text-slate-600 dark:text-slate-300 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors"
             >
               Sign in
@@ -70,7 +70,7 @@ const Navbar = () => {
             <motion.a
               whileHover={{ scale: 1.02 }}
               whileTap={{ scale: 0.98 }}
-              href="#"
+              href="/auth"
               className="text-sm font-medium text-white bg-gradient-to-r from-indigo-600 to-violet-600 hover:from-indigo-500 hover:to-violet-500 px-4 py-2 rounded-xl shadow-md shadow-indigo-500/10 transition-all"
             >
               Sign up
@@ -118,14 +118,14 @@ const Navbar = () => {
 
             <div className="flex flex-col space-y-3 pt-2">
               <a
-                href="#"
+                href="/auth"
                 className="flex items-center justify-center text-base font-medium text-slate-600 dark:text-slate-300 hover:text-indigo-600 dark:hover:text-indigo-400 py-2 transition-colors"
               >
                 Sign in
               </a>
               <motion.a
                 whileTap={{ scale: 0.95 }}
-                href="#"
+                href="/auth"
                 className="flex items-center justify-center text-base font-medium text-white bg-gradient-to-r from-indigo-600 to-violet-600 px-4 py-2.5 rounded-xl shadow-md"
               >
                 Sign up
