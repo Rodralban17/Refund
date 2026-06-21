@@ -7,12 +7,7 @@ import Layout from "./Pages/Layout";
 import HomePage from "./Pages/HomePage";
 import AuthPage from "./Pages/AuthPage";
 import ContactPage from "./Pages/ContactUsPage";
-// import Fonctionalities from "./Pages/Fonctionalities";
-// import AuthPage from "./Pages/AuthPage";
-// import Dashboard from "./Pages/DashboardPage";
-// import TreePage from "./Pages/TreePage";
-// import LoginPage from "./Pages/LoginPage";
-// import RegisterPage from "./Pages/RegisterPage";
+import DashboardLayout from "./Pages/DashBoard";
 const App = () =>{
   const router = createBrowserRouter([
     {
@@ -30,6 +25,10 @@ const App = () =>{
         {
           path: '/contact', 
           element: <ContactPage/>
+        },
+        {
+          path: '/dashboard',
+          element: <DashboardLayout/>
         }
       ],
     },
